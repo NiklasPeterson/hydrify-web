@@ -51,7 +51,7 @@ export default function Home() {
           with <span className={`text-white`}>Hydrify.</span>
           </h1>
           <p className={`mt-4 text-center font-normal text-xl max-w-[480px] lg:max-w-[800px] lg:text-2xl`}>
-          Hydrify is the ultimate hydration companion app designed to guide you on your journey to optimal health and wellness. Coming soon...
+          Hydrify is the ultimate hydration companion app designed to guide you on your journey to optimal health and wellness.
           </p>
           <div
           className={`bg-white border border-white text-[#52CCC1] font-semibold py-4 px-8 rounded-full mt-8`}>
