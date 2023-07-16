@@ -3,10 +3,10 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center px-4 lg:px-0" style={{
-      backgroundImage: `url(background-min.png)`,
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-    backgroundPosition: "top center"
+      backgroundImage: `url(background.png)`,
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
+      backgroundPosition: "top center"
     }}>
       <nav className="z-10 w-full max-w-[1440px] lg:px-16 items-center justify-between flex h-20">
           <a
@@ -20,6 +20,7 @@ export default function Home() {
               width={120}
               height={40}
               priority
+              className={`lg:w-[120px] ], w-24`}
             />
           </a>
 
@@ -52,13 +53,14 @@ export default function Home() {
           <p className={`mt-4 text-center font-normal text-xl max-w-[480px] lg:max-w-[800px] lg:text-2xl`}>
           Hydrify is the ultimate hydration companion app designed to guide you on your journey to optimal health and wellness. Coming soon...
           </p>
-          <a
-          href="https://hydrify.substack.com/p/coming-soon"
-          rel="noopener noreferrer"
-          target='_blank'
+          <div
+          className={`bg-white border border-white text-[#52CCC1] font-semibold py-4 px-8 rounded-full mt-8`}>
+            Coming soon...
+          </div>
+          {/* <div
           className={`bg-white border border-white text-[#52CCC1] hover:bg-[#52CCC1] hover:text-white font-semibold py-4 px-8 rounded-full mt-8`}>
-            Join the waitlist
-          </a>
+            Coming soon...
+          </div> */}
       </div>
     </main>
   )
