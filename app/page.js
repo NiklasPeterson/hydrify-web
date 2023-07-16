@@ -8,7 +8,7 @@ export default function Home() {
       backgroundSize: "cover",
       backgroundPosition: "top center"
     }}>
-      <nav className="z-10 w-full max-w-[1440px] lg:px-16 items-center justify-between flex h-20">
+      <nav className="z-10 w-full max-w-[1440px] lg:px-28 items-center justify-between flex h-20">
           <a
             className="flex place-items-center"
             href="https://hydrify.app"
