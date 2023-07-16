@@ -46,7 +46,7 @@ export default function Home() {
       </nav>
 
       <div className="flex flex-1 flex-col items-center justify-center text-black">
-          <h1 className={`mb-3 text-center font-medium text-4xl lg:text-7xl lg:leading-tight`}>
+          <h1 className={`mb-3 text-center font-medium text-4xl lg:text-6xl lg:leading-tight`}>
           Stay hydrated, stay healthy <br/>
           with <span className={`text-white`}>Hydrify.</span>
           </h1>
