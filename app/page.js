@@ -2,7 +2,11 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center px-4 lg:px-0" style={{
+    <div style={{
+      paddingLeft: "env(safe-area-inset-left)",
+      paddingRight: "env(safe-area-inset-right)"
+    }}>
+    <main className="flex min-h-screen flex-col items-center px-4 lg:px-0 ios-fix" style={{
       // backgroundImage: `url(background.png)`,
       // backgroundRepeat: "no-repeat",
       // backgroundSize: "cover",
@@ -124,5 +128,6 @@ export default function Home() {
           </a>
       </div>
     </main>
+    </div>
   )
 }
