@@ -6,7 +6,7 @@ export default function Home() {
       paddingLeft: "env(safe-area-inset-left)",
       paddingRight: "env(safe-area-inset-right)"
     }}>
-    <main className="flex min-h-screen flex-col items-center px-4 lg:px-0 ios-fix" style={{
+    <main className="flex min-h-screen flex-col items-center px-4 lg:px-0 relative" style={{
       // backgroundImage: `url(background.png)`,
       // backgroundRepeat: "no-repeat",
       // backgroundSize: "cover",
