@@ -8,7 +8,52 @@ export default function Home() {
       backgroundSize: "cover",
       backgroundPosition: "top center"
     }}>
-      <nav className="z-10 w-full max-w-[1440px] lg:px-28 items-center justify-between flex h-20">
+
+<input type="checkbox" id="overlay-input" className="lg:hidden" />
+<label for="overlay-input" id="overlay-button" className="flex lg:hidden"><span></span></label>
+  <div id="overlay">
+    <ul>
+      <li>
+        <a
+            className="flex place-items-center py-2"
+            href="https://twitter.com/AppHydrify"
+            rel="noopener noreferrer"
+            target='_blank'
+          >
+            <Image
+              src="/twitter.svg"
+              alt="Follow Hydrify on twitter"
+              width={24}
+              height={24}
+              priority
+              className="mr-2"
+            />
+            Twitter
+            </a>
+            </li>
+      <li>
+        <a
+            className="flex place-items-center py-2"
+            href="https://www.buymeacoffee.com/niklaspeterson/e/146387"
+            rel="noopener noreferrer"
+            target='_blank'
+          >
+            <Image
+              src="/bmc.svg"
+              alt="Support Hydrify on BuyMeCoffee"
+              width={24}
+              height={24}
+              priority
+              className={`mr-2`}
+            />
+            Support Hydrify
+            </a>
+            </li>
+    </ul>
+  </div>
+
+  
+      <nav className="z-10 w-full max-w-[1440px] lg:px-28 items-center justify-between flex h-20 gap-4">
           <a
             className="flex place-items-center"
             href="https://hydrify.app"
@@ -24,9 +69,9 @@ export default function Home() {
             />
           </a>
 
-        <div className='flex flex-row gap-8'>
+        <div className='hidden lg:flex lg:flex-row lg:gap-8'>
             <a
-            className="flex place-items-center py-2"
+            className="flex place-items-center py-2 hover:opacity-80"
             href="https://twitter.com/AppHydrify"
             rel="noopener noreferrer"
             target='_blank'
@@ -43,7 +88,7 @@ export default function Home() {
             </a>
 
             <a
-            className="flex place-items-center py-2"
+            className="flex place-items-center py-2 hover:opacity-80"
             href="https://www.buymeacoffee.com/niklaspeterson/e/146387"
             rel="noopener noreferrer"
             target='_blank'
@@ -73,7 +118,8 @@ export default function Home() {
           a 
           href='https://testflight.apple.com/join/1IA5b7dK'
           target='_blank'
-          className={`bg-white border border-white text-[#52CCC1] hover:bg-[#52CCC1] hover:text-white font-semibold py-4 px-8 rounded-full mt-8`}>
+          className={`bg-white border border-white text-[#52CCC1] hover:opacity-80 font-semibold py-4 px-8 rounded-full mt-8`}>
+            {/* className={`bg-white border border-white text-[#52CCC1] hover:bg-[#52CCC1] hover:text-white hover:opacity-80 font-semibold py-4 px-8 rounded-full mt-8`}> */}
             Get the TestFlight
           </a>
       </div>
