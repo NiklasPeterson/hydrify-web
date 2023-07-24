@@ -25,22 +25,38 @@ export default function Home() {
           </a>
 
         <div className='flex flex-row gap-8'>
-        <a
-            className="flex place-items-center py-2"
-            href="https://hydrify.substack.com/p/coming-soon"
-            rel="noopener noreferrer"
-            target='_blank'
-          >
-            Join the Waitlist
-            </a>
-
             <a
             className="flex place-items-center py-2"
             href="https://twitter.com/AppHydrify"
             rel="noopener noreferrer"
             target='_blank'
           >
+            <Image
+              src="/twitter.svg"
+              alt="Follow Hydrify on twitter"
+              width={24}
+              height={24}
+              priority
+              className={`mr-2`}
+            />
             Twitter
+            </a>
+
+            <a
+            className="flex place-items-center py-2"
+            href="https://www.buymeacoffee.com/niklaspeterson/e/146387"
+            rel="noopener noreferrer"
+            target='_blank'
+          >
+            <Image
+              src="/bmc.svg"
+              alt="Support Hydrify on BuyMeCoffee"
+              width={24}
+              height={24}
+              priority
+              className={`mr-2`}
+            />
+            Support Hydrify
             </a>
         </div>
       </nav>
@@ -53,14 +69,13 @@ export default function Home() {
           <p className={`mt-4 text-center font-normal text-xl max-w-[480px] lg:max-w-[800px] lg:text-2xl`}>
           Hydrify is the ultimate hydration companion app designed to guide you on your journey to optimal health and wellness.
           </p>
-          <div
-          className={`bg-white border border-white text-[#52CCC1] font-semibold py-4 px-8 rounded-full mt-8`}>
-            Coming soon...
-          </div>
-          {/* <div
+          <a
+          a 
+          href='https://testflight.apple.com/join/1IA5b7dK'
+          target='_blank'
           className={`bg-white border border-white text-[#52CCC1] hover:bg-[#52CCC1] hover:text-white font-semibold py-4 px-8 rounded-full mt-8`}>
-            Coming soon...
-          </div> */}
+            Get the TestFlight
+          </a>
       </div>
     </main>
   )
