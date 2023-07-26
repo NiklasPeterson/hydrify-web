@@ -81,14 +81,14 @@ export default function Home() {
             target='_blank'
           >
             <Image
-              src="/twitter.svg"
+              src="/x.svg"
               alt="Follow Hydrify on twitter"
               width={24}
               height={24}
               priority
               className={`mr-2`}
             />
-            Twitter
+            Follow
             </a>
 
             <a
@@ -105,7 +105,7 @@ export default function Home() {
               priority
               className={`mr-2`}
             />
-            Support Hydrify
+            Support
             </a>
         </div>
       </nav>
