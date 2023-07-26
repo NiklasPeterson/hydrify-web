@@ -127,6 +127,9 @@ export default function Home() {
             Get the TestFlight
           </a>
       </div>
+    <footer className='w-full max-w-[1440px] lg:px-28 items-center justify-between flex h-20'>
+      <span>© 2023 Hydrify</span> <span> Created by <a href='https://x.com/Niklas_Peterson' className='hover:opacity-80'>Niklas Peterson</a>.</span>
+    </footer>
     </main>
     </div>
   )
