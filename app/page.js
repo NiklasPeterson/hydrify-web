@@ -20,21 +20,39 @@ export default function Home() {
       <li>
         <a
             className="flex place-items-center py-2"
-            href="https://twitter.com/AppHydrify"
+            href="https://x.com/AppHydrify"
             rel="noopener noreferrer"
             target='_blank'
           >
             <Image
-              src="/twitter.svg"
-              alt="Follow Hydrify on twitter"
+              src="/x.svg"
+              alt="Follow Hydrify on X"
               width={24}
               height={24}
               priority
               className="mr-2"
             />
-            Twitter
-            </a>
-            </li>
+            Follow
+          </a>
+        </li>
+        {/* <li>
+        <a
+            className="flex place-items-center py-2"
+            href="https://www.producthunt.com/products/hydrify"
+            rel="noopener noreferrer"
+            target='_blank'
+          >
+            <Image
+              src="/ph.svg"
+              alt="Follow on Product Hunt"
+              width={24}
+              height={24}
+              priority
+              className={`mr-2`}
+            />
+            Follow on Product Hunt
+          </a>
+        </li> */}
       <li>
         <a
             className="flex place-items-center py-2"
@@ -44,15 +62,15 @@ export default function Home() {
           >
             <Image
               src="/bmc.svg"
-              alt="Support Hydrify on BuyMeCoffee"
+              alt="Support Hydrify on Buy Me Coffee"
               width={24}
               height={24}
               priority
               className={`mr-2`}
             />
             Support Hydrify
-            </a>
-            </li>
+          </a>
+        </li>
     </ul>
   </div>
 
@@ -76,13 +94,13 @@ export default function Home() {
         <div className='hidden lg:flex lg:flex-row lg:gap-8'>
             <a
             className="flex place-items-center py-2 hover:opacity-80"
-            href="https://twitter.com/AppHydrify"
+            href="https://x.com/AppHydrify"
             rel="noopener noreferrer"
             target='_blank'
           >
             <Image
               src="/x.svg"
-              alt="Follow Hydrify on twitter"
+              alt="Follow Hydrify on x"
               width={24}
               height={24}
               priority
@@ -91,6 +109,23 @@ export default function Home() {
             Follow
             </a>
 
+            {/* <a
+            className="flex place-items-center py-2 hover:opacity-80"
+            href="https://www.producthunt.com/products/hydrify"
+            rel="noopener noreferrer"
+            target='_blank'
+          >
+            <Image
+              src="/ph.svg"
+              alt="Follow Hydrify on Product Hunt"
+              width={24}
+              height={24}
+              priority
+              className={`mr-2`}
+            />
+            Follow
+            </a> */}
+            
             <a
             className="flex place-items-center py-2 hover:opacity-80"
             href="https://www.buymeacoffee.com/niklaspeterson/e/146387"
@@ -105,7 +140,7 @@ export default function Home() {
               priority
               className={`mr-2`}
             />
-            Support
+            Support Hydrify
             </a>
         </div>
       </nav>
@@ -120,15 +155,16 @@ export default function Home() {
           </p>
           <a
           a 
-          href='https://testflight.apple.com/join/1IA5b7dK'
+          href='https://www.producthunt.com/products/hydrify'
           target='_blank'
           className={`bg-white border border-white text-[#52CCC1] hover:opacity-80 font-semibold py-4 px-8 rounded-full mt-8`}>
             {/* className={`bg-white border border-white text-[#52CCC1] hover:bg-[#52CCC1] hover:text-white hover:opacity-80 font-semibold py-4 px-8 rounded-full mt-8`}> */}
-            Get the TestFlight
+            Sign up
           </a>
       </div>
-    <footer className='w-full max-w-[1440px] lg:px-28 items-center justify-between flex h-20'>
-      <span>© 2023 Hydrify</span> <span> Created by <a href='https://x.com/Niklas_Peterson' className='hover:opacity-80'>Niklas Peterson</a>.</span>
+    <footer className='w-full max-w-[1440px] lg:px-28 items-center justify-center flex h-20'>
+      <span>© 2023 Hydrify | Created by <a href='https://x.com/Niklas_Peterson' className='hover:opacity-80'>Niklas Peterson</a>.</span>
+      {/* <a href="https://www.producthunt.com/posts/hydrify?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-hydrify" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=406695&theme=light" alt="Hydrify - Track&#0044;&#0032;get&#0032;reminded&#0044;&#0032;and&#0032;conquer&#0032;your&#0032;daily&#0032;water&#0032;intakes&#0033; | Product Hunt" style={{width: 250, height: 54}} width="250" height="54" /></a> */}
     </footer>
     </main>
     </div>
