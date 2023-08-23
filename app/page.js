@@ -180,7 +180,7 @@ export default function Home() {
         <div className='flex flex-col pb-6 pt-12 px-6 bg-white rounded-3xl text-center lg:w-80 lg:absolute lg:bottom-4 lg:right-4'>
           <h4 className='text-2xl text-black mb-2 font-semibold'>Support & Feedback</h4>
 
-          <p className='text-base text-[#85858B]'>If you have any questions or suggestions reach out to Hydrify on Twitter/X.</p>
+          <p className='text-base text-[#85858B]'>If you have any questions or suggestions reach out to Hydrify on X (RIP Twitter).</p>
 
           <a
             className='bg-[#52CCC1] text-white text-base rounded-full flex items-center justify-center h-12 mt-6 font-medium hover:opacity-80'
