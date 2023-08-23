@@ -159,7 +159,7 @@ export default function Home() {
             <a
               href='https://www.producthunt.com/products/hydrify'
               target='_blank'
-              className={`bg-white border border-white text-[#52CCC1] font-semibold text-base h-12 px-4 flex items-center justify-center rounded-lg hover:opacity-80`}>
+              className={`bg-white border border-white text-[#52CCC1] font-medium text-base h-12 px-8 flex items-center justify-center rounded-full hover:opacity-80`}>
               Get notified!
             </a>
 
@@ -183,7 +183,7 @@ export default function Home() {
           <p className='text-base text-[#85858B]'>If you have any questions or suggestions reach out to Hydrify on Twitter/X.</p>
 
           <a
-            className='bg-[#52CCC1] text-white text-base rounded-full flex items-center justify-center h-12 mt-6 hover:opacity-80'
+            className='bg-[#52CCC1] text-white text-base rounded-full flex items-center justify-center h-12 mt-6 font-medium hover:opacity-80'
             href="https://x.com/AppHydrify"
             rel="noopener noreferrer"
             target='_blank'
