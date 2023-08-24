@@ -163,10 +163,10 @@ export default function Home() {
               Get notified!
             </a>
 
-            {/* <a href="https://apple.com" rel='noreferrer' target='_blank' className='hover:opacity-80'>
+            {/* <a href="https://apps.apple.com/us/app/hydrify/id6450311759" rel='noreferrer' target='_blank' className='hover:opacity-80'>
               <Image
                 src='/App_store-black.svg'
-                alt='Follow Hydrify on X'
+                alt='Download on App Store'
                 width={145}
                 height={48}
                 priority
