@@ -15,7 +15,7 @@ export const metadata = {
   },
 
   other: {
-    'apple-Itunes-App': 'app-id=id6450311759, app-argument=https://apps.apple.com/us/app/hydrify/id6450311759',
+    'apple-Itunes-App': 'app-id=6450311759, app-argument=https://apps.apple.com/us/app/hydrify/id6450311759',
   }
   
 }
