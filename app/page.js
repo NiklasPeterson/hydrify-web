@@ -109,7 +109,7 @@ export default function Home() {
               Follow
             </a>
 
-            <a
+            {/* <a
               className="flex place-items-center py-2 hover:opacity-80"
               href="https://www.producthunt.com/products/hydrify"
               rel="noopener noreferrer"
@@ -124,7 +124,7 @@ export default function Home() {
                 className={`mr-2`}
               />
               Upvote
-            </a>
+            </a> */}
 
             <a
               className="flex place-items-center py-2 hover:opacity-80"
@@ -156,12 +156,12 @@ export default function Home() {
 
           <div className='mt-8 flex flex-row gap-4'>
 
-            <a
+            {/* <a
               href='https://www.producthunt.com/products/hydrify'
               target='_blank'
               className={`bg-white border border-white text-[#52CCC1] font-medium text-base h-12 px-8 flex items-center justify-center rounded-full hover:opacity-80`}>
               Get notified!
-            </a>
+            </a> */}
 
             <a href="https://apps.apple.com/us/app/hydrify/id6450311759" rel='noreferrer' target='_blank' className='hover:opacity-80'>
               <Image
@@ -173,6 +173,8 @@ export default function Home() {
                 className='pointer-events-none select-none cursor-pointer'
               />
             </a>
+
+            <a href="https://www.producthunt.com/posts/hydrify?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-hydrify" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=406695&theme=light" alt="Hydrify - Track&#0044;&#0032;get&#0032;reminded&#0044;&#0032;and&#0032;conquer&#0032;your&#0032;daily&#0032;water&#0032;intakes&#0033; | Product Hunt" style={{width: 216, height: 48}} width="216" height="48" /></a>
 
           </div>
         </div>
@@ -194,7 +196,6 @@ export default function Home() {
 
         <footer className='w-full max-w-[1440px] lg:px-28 items-center justify-center flex h-20'>
           <span>© 2023 Hydrify | Created by <a target='_blank' href='https://x.com/Niklas_Peterson' className='underline hover:opacity-80'>Niklas Peterson</a>.</span>
-          {/* <a href="https://www.producthunt.com/posts/hydrify?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-hydrify" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=406695&theme=light" alt="Hydrify - Track&#0044;&#0032;get&#0032;reminded&#0044;&#0032;and&#0032;conquer&#0032;your&#0032;daily&#0032;water&#0032;intakes&#0033; | Product Hunt" style={{width: 250, height: 54}} width="250" height="54" /></a> */}
         </footer>
       </main>
     </div>
