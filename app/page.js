@@ -91,25 +91,38 @@ export default function Home() {
             />
           </a>
 
-          <div className='hidden lg:flex lg:flex-row lg:gap-8'>
+          <div className='hidden lg:flex lg:flex-row lg:gap-6'>
             <a
               className="flex place-items-center py-2 hover:opacity-80"
-              href="https://x.com/AppHydrify"
+              href="https://x.com/HydrifyApp"
               rel="noopener noreferrer"
               target='_blank'
             >
               <Image
                 src="/x.svg"
-                alt="Follow Hydrify on x"
+                alt="Follow Hydrify on X"
                 width={24}
                 height={24}
                 priority
-                className={`mr-2`}
               />
-              Follow
             </a>
 
-            {/* <a
+            <a
+              className="flex place-items-center py-2 hover:opacity-80"
+              href="https://instagram.com/HydrifyApp"
+              rel="noopener noreferrer"
+              target='_blank'
+            >
+              <Image
+                src="/instagram.svg"
+                alt="Follow Hydrify on Instagram"
+                width={24}
+                height={24}
+                priority
+              />
+            </a>
+
+            <a
               className="flex place-items-center py-2 hover:opacity-80"
               href="https://www.producthunt.com/products/hydrify"
               rel="noopener noreferrer"
@@ -117,14 +130,12 @@ export default function Home() {
             >
               <Image
                 src="/ph.svg"
-                alt="Upvote Hydrify on Product Hunt"
+                alt="Follow Hydrify on Product Hunt"
                 width={24}
                 height={24}
                 priority
-                className={`mr-2`}
               />
-              Upvote
-            </a> */}
+            </a>
 
             <a
               className="flex place-items-center py-2 hover:opacity-80"
@@ -138,10 +149,10 @@ export default function Home() {
                 width={24}
                 height={24}
                 priority
-                className={`mr-2`}
               />
-              Sponsor Hydrify
+              <span className={`ml-2`}>Sponsor Hydrify</span>
             </a>
+
           </div>
         </nav>
 
@@ -156,13 +167,6 @@ export default function Home() {
 
           <div className='mt-8 flex flex-row gap-4'>
 
-            {/* <a
-              href='https://www.producthunt.com/products/hydrify'
-              target='_blank'
-              className={`bg-white border border-white text-[#52CCC1] font-medium text-base h-12 px-8 flex items-center justify-center rounded-full hover:opacity-80`}>
-              Get notified!
-            </a> */}
-
             <a href="https://apps.apple.com/us/app/hydrify/id6450311759" rel='noreferrer' target='_blank' className='hover:opacity-80'>
               <Image
                 src='/App_store-black.svg'
@@ -174,7 +178,9 @@ export default function Home() {
               />
             </a>
 
-            <a href="https://www.producthunt.com/posts/hydrify?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-hydrify" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=406695&theme=light" alt="Hydrify - Track&#0044;&#0032;get&#0032;reminded&#0044;&#0032;and&#0032;conquer&#0032;your&#0032;daily&#0032;water&#0032;intakes&#0033; | Product Hunt" style={{width: 216, height: 48}} width="216" height="48" /></a>
+            <a href="https://www.producthunt.com/posts/hydrify?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-hydrify" target="_blank">
+              <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=406695&theme=light" alt="Hydrify - Track&#0044;&#0032;get&#0032;reminded&#0044;&#0032;and&#0032;conquer&#0032;your&#0032;daily&#0032;water&#0032;intakes&#0033; | Product Hunt" style={{width: 216, height: 48}} width="216" height="48" />
+            </a>
 
           </div>
         </div>
