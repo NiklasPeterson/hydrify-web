@@ -163,7 +163,7 @@ export default function Home() {
               Get notified!
             </a>
 
-            {/* <a href="https://apps.apple.com/us/app/hydrify/id6450311759" rel='noreferrer' target='_blank' className='hover:opacity-80'>
+            <a href="https://apps.apple.com/us/app/hydrify/id6450311759" rel='noreferrer' target='_blank' className='hover:opacity-80'>
               <Image
                 src='/App_store-black.svg'
                 alt='Download on App Store'
@@ -172,7 +172,7 @@ export default function Home() {
                 priority
                 className='pointer-events-none select-none cursor-pointer'
               />
-            </a> */}
+            </a>
 
           </div>
         </div>
