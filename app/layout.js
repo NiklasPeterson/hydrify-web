@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Hydrify',
-  description: 'Hydrify is your personalized hydration partner. It helps you track, remember, conquer your water goals, and discover the path to a healthier, more refreshed you.',
+  description: 'Hydrify is your go-to assistant for staying refreshed. With personalized goals and tailored reminders, it ensures you drink enough water daily. Achieve well-being and feel rejuvenated effortlessly with Hydrify.  ',
   metadataBase: new URL('https://hydrify.app'),
 
   viewport: {
