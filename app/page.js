@@ -20,7 +20,7 @@ export default function Home() {
             <li>
               <a
                 className="flex place-items-center py-2"
-                href="https://x.com/AppHydrify"
+                href="https://x.com/HydrifyApp"
                 rel="noopener noreferrer"
                 target='_blank'
               >
@@ -192,7 +192,7 @@ export default function Home() {
 
           <a
             className='bg-[#52CCC1] text-white text-base rounded-full flex items-center justify-center h-12 mt-6 font-medium hover:opacity-80'
-            href="https://x.com/AppHydrify"
+            href="https://x.com/HydrifyApp"
             rel="noopener noreferrer"
             target='_blank'
           >
