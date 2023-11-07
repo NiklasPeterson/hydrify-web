@@ -13,7 +13,8 @@ export default function Home() {
         // backgroundPosition: "top center"
       }}>
 
-        <input type="checkbox" id="overlay-input" className="lg:hidden" />
+
+        {/* <input type="checkbox" id="overlay-input" className="lg:hidden" />
         <label for="overlay-input" id="overlay-button" className="flex lg:hidden"><span></span></label>
         <div id="overlay">
           <ul>
@@ -32,27 +33,48 @@ export default function Home() {
                   priority
                   className="mr-2"
                 />
-                Follow
+                Follow on X
               </a>
             </li>
-            {/* <li>
-        <a
-            className="flex place-items-center py-2"
-            href="https://www.producthunt.com/products/hydrify"
-            rel="noopener noreferrer"
-            target='_blank'
-          >
-            <Image
-              src="/ph.svg"
-              alt="Follow on Product Hunt"
-              width={24}
-              height={24}
-              priority
-              className={`mr-2`}
-            />
-            Follow on Product Hunt
-          </a>
-        </li> */}
+
+            <li>
+            <a
+              className="flex place-items-center py-2 hover:opacity-80"
+              href="https://instagram.com/HydrifyApp"
+              rel="noopener noreferrer"
+              target='_blank'
+            >
+              <Image
+                src="/instagram.svg"
+                alt="Follow Hydrify on Instagram"
+                width={24}
+                height={24}
+                priority
+                className="mr-2"
+              />
+                Follow on Instagram
+              </a>
+            </li>
+
+            <li>
+            <a
+              className="flex place-items-center py-2"
+              href="https://www.producthunt.com/products/hydrify"
+              rel="noopener noreferrer"
+              target='_blank'
+            >
+              <Image
+                src="/ph.svg"
+                alt="Follow Hydrify on Product Hunt"
+                width={24}
+                height={24}
+                priority
+                className={`mr-2`}
+              />
+              Follow on ProductHunt
+            </a>
+            </li>
+   
             <li>
               <a
                 className="flex place-items-center py-2"
@@ -72,7 +94,7 @@ export default function Home() {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
 
 
         <nav className="z-10 w-full max-w-[1440px] lg:px-28 items-center justify-between flex h-20 gap-4">
@@ -91,7 +113,7 @@ export default function Home() {
             />
           </a>
 
-          <div className='hidden lg:flex lg:flex-row lg:gap-6'>
+          <div className='flex flex-row gap-6'>
             <a
               className="flex place-items-center py-2 hover:opacity-80"
               href="https://x.com/HydrifyApp"
@@ -150,22 +172,22 @@ export default function Home() {
                 height={24}
                 priority
               />
-              <span className={`ml-2`}>Sponsor Hydrify</span>
+              <span className={`ml-2 hidden lg:flex`}>Sponsor Hydrify</span>
             </a>
 
           </div>
         </nav>
 
-        <div className="flex flex-1 flex-col items-center justify-center text-black">
-          <h1 className={`mb-3 text-center font-medium text-4xl lg:text-6xl lg:leading-tight`}>
+        <div className="flex flex-1 flex-col items-center justify-center text-black py-10 gap-10">
+          <h1 className={`text-center font-medium text-4xl lg:text-6xl lg:leading-tight`}>
             Stay hydrated, stay healthy <br />
             with <span className={`text-white`}>Hydrify.</span>
           </h1>
-          <p className={`mt-4 text-center font-normal text-xl max-w-[480px] lg:max-w-[800px] lg:text-2xl`}>
-            Hydrify is the ultimate hydration companion app designed to guide you on your journey to optimal health and wellness.
+          <p className={`text-center font-normal text-xl max-w-[640px] lg:max-w-[800px] lg:text-2xl`}>
+            Hydrify is your go-to assistant for staying hydration, designed to guide you on your journey to optimal health and wellness.
           </p>
 
-          <div className='mt-8 flex flex-row gap-4'>
+          <div className='flex flex-row gap-4'>
 
             <a href="https://apps.apple.com/us/app/hydrify/id6450311759" rel='noreferrer' target='_blank' className='hover:opacity-80'>
               <Image
@@ -188,7 +210,7 @@ export default function Home() {
         <div className='flex flex-col pb-6 pt-12 px-6 bg-white rounded-3xl text-center mt-6 lg:w-80 lg:absolute lg:bottom-4 lg:right-4 lg:mt-0'>
           <h4 className='text-2xl text-black mb-2 font-semibold'>Support & Feedback</h4>
 
-          <p className='text-base text-[#85858B]'>If you have any questions or suggestions reach out to Hydrify on X (RIP Twitter).</p>
+          <p className='text-base text-[#85858B]'>If you have any questions or suggestions reach out to Hydrify on X.</p>
 
           <a
             className='bg-[#52CCC1] text-white text-base rounded-full flex items-center justify-center h-12 mt-6 font-medium hover:opacity-80'
