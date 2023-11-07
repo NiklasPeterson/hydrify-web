@@ -178,7 +178,7 @@ export default function Home() {
           </div>
         </nav>
 
-        <div className="flex flex-1 flex-col items-center justify-center text-black py-10 gap-10">
+        <div className="flex flex-1 flex-col items-center justify-center text-black py-24 gap-10">
           <h1 className={`text-center font-medium text-4xl lg:text-6xl lg:leading-tight`}>
             Stay hydrated, stay healthy <br />
             with <span className={`text-white`}>Hydrify.</span>
@@ -207,7 +207,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='flex flex-col pb-6 pt-12 px-6 bg-white rounded-3xl text-center mt-6 lg:w-80 lg:absolute lg:bottom-4 lg:right-4 lg:mt-0'>
+        <div className='flex flex-col pb-6 pt-12 px-6 bg-white rounded-3xl text-center mt-6 lg:w-96 lg:absolute lg:bottom-4 lg:right-4 lg:mt-0'>
           <h4 className='text-2xl text-black mb-2 font-semibold'>Support & Feedback</h4>
 
           <p className='text-base text-[#85858B]'>If you have any questions or suggestions reach out to Hydrify on X.</p>
