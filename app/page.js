@@ -224,7 +224,7 @@ export default function Home() {
         </div>
 
         <footer className='w-full max-w-[1440px] lg:px-28 items-center justify-center flex h-20'>
-          <span>© 2024 Hydrify | Created by <a target='_blank' href='https://x.com/Niklas_Peterson' className='underline hover:opacity-80'>Niklas Peterson</a>.</span>
+          <span>© {new Date().getFullYear()} Hydrify | Created by <a target='_blank' href='https://x.com/Niklas_Peterson' className='underline hover:opacity-80'>Niklas Peterson</a>.</span>
         </footer>
       </main>
     </div>
