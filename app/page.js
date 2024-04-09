@@ -128,7 +128,7 @@ export default function Home() {
                 priority
               />
             </a>
-
+{/*
             <a
               className="flex place-items-center py-2 hover:opacity-80"
               href="https://instagram.com/HydrifyApp"
@@ -143,6 +143,7 @@ export default function Home() {
                 priority
               />
             </a>
+*/}
 
             <a
               className="flex place-items-center py-2 hover:opacity-80"
