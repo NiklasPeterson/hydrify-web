@@ -6,95 +6,7 @@ export default function Home() {
       paddingLeft: "env(safe-area-inset-left)",
       paddingRight: "env(safe-area-inset-right)"
     }}>
-      <main className="flex min-h-screen flex-col items-center px-4 lg:px-0 relative" style={{
-        // backgroundImage: `url(background.png)`,
-        // backgroundRepeat: "no-repeat",
-        // backgroundSize: "cover",
-        // backgroundPosition: "top center"
-      }}>
-
-
-        {/* <input type="checkbox" id="overlay-input" className="lg:hidden" />
-        <label for="overlay-input" id="overlay-button" className="flex lg:hidden"><span></span></label>
-        <div id="overlay">
-          <ul>
-            <li>
-              <a
-                className="flex place-items-center py-2"
-                href="https://x.com/HydrifyApp"
-                rel="noopener noreferrer"
-                target='_blank'
-              >
-                <Image
-                  src="/x.svg"
-                  alt="Follow Hydrify on X"
-                  width={24}
-                  height={24}
-                  priority
-                  className="mr-2"
-                />
-                Follow on X
-              </a>
-            </li>
-
-            <li>
-            <a
-              className="flex place-items-center py-2 hover:opacity-80"
-              href="https://instagram.com/HydrifyApp"
-              rel="noopener noreferrer"
-              target='_blank'
-            >
-              <Image
-                src="/instagram.svg"
-                alt="Follow Hydrify on Instagram"
-                width={24}
-                height={24}
-                priority
-                className="mr-2"
-              />
-                Follow on Instagram
-              </a>
-            </li>
-
-            <li>
-            <a
-              className="flex place-items-center py-2"
-              href="https://www.producthunt.com/products/hydrify"
-              rel="noopener noreferrer"
-              target='_blank'
-            >
-              <Image
-                src="/ph.svg"
-                alt="Follow Hydrify on Product Hunt"
-                width={24}
-                height={24}
-                priority
-                className={`mr-2`}
-              />
-              Follow on ProductHunt
-            </a>
-            </li>
-   
-            <li>
-              <a
-                className="flex place-items-center py-2"
-                href="https://www.buymeacoffee.com/niklaspeterson/e/146387"
-                rel="noopener noreferrer"
-                target='_blank'
-              >
-                <Image
-                  src="/bmc.svg"
-                  alt="Support Hydrify on Buy Me Coffee"
-                  width={24}
-                  height={24}
-                  priority
-                  className={`mr-2`}
-                />
-                Support Hydrify
-              </a>
-            </li>
-          </ul>
-        </div> */}
+      <main className="flex min-h-screen flex-col items-center px-4 lg:px-0 relative">
 
 
         <nav className="z-10 w-full max-w-[1440px] lg:px-28 items-center justify-between flex h-20 gap-4">
@@ -116,34 +28,18 @@ export default function Home() {
           <div className='flex flex-row gap-6'>
             <a
               className="flex place-items-center py-2 hover:opacity-80"
-              href="https://x.com/HydrifyApp"
+              href="https://x.com/niklas_peterson"
               rel="noopener noreferrer"
               target='_blank'
             >
               <Image
                 src="/x.svg"
-                alt="Follow Hydrify on X"
+                alt="Follow Hydrify creator on X"
                 width={24}
                 height={24}
                 priority
               />
             </a>
-{/*
-            <a
-              className="flex place-items-center py-2 hover:opacity-80"
-              href="https://instagram.com/HydrifyApp"
-              rel="noopener noreferrer"
-              target='_blank'
-            >
-              <Image
-                src="/instagram.svg"
-                alt="Follow Hydrify on Instagram"
-                width={24}
-                height={24}
-                priority
-              />
-            </a>
-*/}
 
             <a
               className="flex place-items-center py-2 hover:opacity-80"
@@ -200,11 +96,6 @@ export default function Home() {
                 className='pointer-events-none select-none cursor-pointer'
               />
             </a>
-
-           {/*  <a href="https://www.producthunt.com/posts/hydrify?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-hydrify" target="_blank">
-              <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=406695&theme=light" alt="Hydrify - Track&#0044;&#0032;get&#0032;reminded&#0044;&#0032;and&#0032;conquer&#0032;your&#0032;daily&#0032;water&#0032;intakes&#0033; | Product Hunt" style={{width: 216, height: 48}} width="216" height="48" />
-            </a>
-          */}
           </div>
         </div>
 
