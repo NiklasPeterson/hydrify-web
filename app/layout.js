@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Hydrify',
   description: 'Hydrify is your go-to assistant for staying refreshed. With personalized goals and tailored reminders, it ensures you drink enough water daily. Achieve well-being and feel rejuvenated effortlessly with Hydrify.  ',
-  metadataBase: new URL('https://hydrify.app'),
+  metadataBase: new URL('https://hydrify.niklaspeterson.com'),
   other: {
     'apple-itunes-app': 'app-id=6450311759, app-argument=https://apps.apple.com/app/hydrify/id6450311759'
   },

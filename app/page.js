@@ -12,7 +12,7 @@ export default function Home() {
         <nav className="z-10 w-full max-w-[1440px] lg:px-28 items-center justify-between flex h-20 gap-4">
           <a
             className="flex place-items-center"
-            href="https://hydrify.app"
+            href="https://hydrify.niklaspeterson.com"
             rel="noopener noreferrer"
           >
             <Image
@@ -106,7 +106,7 @@ export default function Home() {
 
           <a
             className='bg-[#52CCC1] text-white text-base rounded-full flex items-center justify-center h-12 mt-6 font-medium hover:opacity-80'
-            href="mailto:help@hydrify.app"
+            href="mailto:hydrify@niklaspeterson.com"
             rel="noopener noreferrer"
             target='_blank'
           >
