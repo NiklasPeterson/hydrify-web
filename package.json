@@ -11,7 +11,7 @@
   "dependencies": {
     "@tailwindcss/postcss": "^4.3.0",
     "eslint": "^10.2.1",
-    "eslint-config-next": "^16.2.4",
+    "eslint-config-next": "^16.2.7",
     "next": "16.2.7",
     "postcss": "8.5.14",
     "react": "^19.2.7",
